@@ -32,7 +32,7 @@ const postsSlice = createSlice({
       state.posts.satus = 'loaded';
     },
     [fetchPosts.rejected]: (state, action) => {
-      state.post.items = [];
+      state.posts.items = [];
       state.posts.satus = 'error';
     },
   },

@@ -49,14 +49,14 @@ export const Home = () => {
                 createdAt={'31 марта 2024 г.'}
                 viewsCount={150}
                 commentsCount={3}
-                tags={['flea', 'rhcp', 'music']}
+                tags={[ 'rhcp', 'music']}
                 isEditable
               />
             ),
           )}
         </Grid>
         <Grid xs={4} item>
-          <TagsBlock items={['flea', 'rhcp', 'musicians']} isLoading={false} />
+          <TagsBlock items={['rhcp', 'musicians']} isLoading={false} />
           <CommentsBlock
             items={[
               {
